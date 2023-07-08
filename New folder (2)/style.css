@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' ,sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: lightslategray;
+}
+::selection {
+    background: aqua;
+    color: black;
+}
+.wraper {
+    width: 380px;
+    background: #ffff;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+.wraper .title {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100px;
+    color: aqua;
+    user-select: none;
+    border-radius: 15px 15px 00;
+    background: linear-gradient(-135deg, );
+    background-color: black;
+}
+.wraper form {
+    padding: 10px 30px 50px 30px;
+}
+.wraper form .field {
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.wraper form .field input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 20px;
+    border: 1px solid lightslategray;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    
+}
+
+.wraper form .field input:focus
+form .field input:valid{
+    border-color: rgb(255, 144, 255);
+}
+.wraper form .field label{
+    position:absolute;
+    top: 50%;
+    left: 20px;
+    color: #999999;
+    font-weight: 400;
+    font-size: 17px;
+    pointer-events: none;
+    transform: translateY(-50px);
+    transition: all 0.3s ease;
+   
+}
+
+form .field input:focus ~ label
+form .field input:valid ~ label{
+    top: 0;
+    font-size: 16px;
+    color: aqua;
+    background-color: #ffff;
+    transform: translateY(-50px);
+}
+
+form content {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form .content .chekbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form .content .input {
+    width: 15px;
+    height: 15px;
+    background:rgb(255, 144, 255);
+}
+
+form .content .label {
+    color: #262626;
+    user-select: none;
+    padding-left: 5px;
+}
+
+form .content .pass-link{
+    color: "";
+}
+
+form .field input [type="submit"]{
+    display: flex;
+    color: #ffff;
+    border: none;
+    padding-left: 0;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(-135deg, );
+    transition: all 0.3s ease;
+    flex-direction: column;
+}
+
+form .field input [type="submit"]:active{
+    display: flex;
+  transform: scale(0.95);
+  flex-direction: column;
+
+}
+
+form .singup-link{
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+}
+form .pass-link a,
+form .singup-link a{
+    color: blue;
+    text-decoration: underline;
+}
+
+form .pass-link a:hover
+form .pass-link a:hover{
+    text-decoration: underline;
+}
