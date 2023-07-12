@@ -47,11 +47,13 @@ html,body{
 }
 
 .wraper form .field input {
+    text-align:center;
+    display: flex;
     height: 100%;
     width: 100%;
     outline: none;
     font-size: 17px;
-    padding-left: 20px;
+    padding-left: 40px;
     border: 1px solid lightslategray;
     border-radius: 25px;
     transition: all 0.3s ease;
