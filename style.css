@@ -48,6 +48,7 @@ body {
 .navigation {
     display: flex;
     justify-content: space-between;
+    aling-item:center;
     
 }
 
