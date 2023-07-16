@@ -47,8 +47,8 @@ body {
 
 .navigation {
     display: flex;
-    justify-content: space-between;
-    aling-item:center;
+    justify-content: center;
+    aling-item: center;
     
 }
 
