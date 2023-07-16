@@ -77,29 +77,4 @@ body {
 .active:hover {
     color:rgb(255, 144, 255)!important;
 }
- .search-bar {
-      display: flex;
-      align-items: center;
-      margin-top: 10px;
-     
-    }
-    
-    .search-bar input[type="text"] {
-      height: 10px;
-      padding: 5px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    
-    .search-bar button {
-      height: 10px;
-      padding: 5px 10px;
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    
-    .search-bar button:hover {
-      background-color: #0056b3;
+s
